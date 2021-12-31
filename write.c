@@ -4,6 +4,7 @@
 #include <readline/readline.h>
 
 void printmtx(int **Data, int *mtxsize){
+	printf("SIZE: %d x %d\n", mtxsize[0], mtxsize[1]);
 	for (int i = 0; i<mtxsize[0]; ++i){
 		printf("| ");
 		for (int j=0; j<mtxsize[1]; ++j){

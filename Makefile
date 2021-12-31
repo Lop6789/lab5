@@ -4,7 +4,7 @@ CFLAGS=-c -Wall -std=c99
 
 LDFLAGS=-lreadline
 
-SRCS=main.c enter.c write.c edit.c  check.c fill.c chooser.c
+SRCS=main.c enter.c write.c edit.c check.c fill.c chooser.c QuickSort.c
 
 OBJS=$(SRCS:.c=.o)
 
